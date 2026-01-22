@@ -1,0 +1,27 @@
+<!-- This file helps Netlify detect the form during build -->
+<!-- It's a hidden file that Netlify parses to register the form -->
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Form Registration</title>
+</head>
+<body>
+  <form name="private-request" netlify netlify-honeypot="bot-field" hidden>
+    <input name="form-name" type="hidden" value="private-request" />
+    <input name="bot-field" />
+    <input name="firstName" />
+    <input name="lastName" />
+    <input name="email" type="email" />
+    <input name="phone" type="tel" />
+    <input name="organization" />
+    <input name="position" />
+    <input name="city" />
+    <input name="startDate" type="date" />
+    <input name="endDate" type="date" />
+    <input name="protectionLevel" />
+    <input name="numberOfVehicles" />
+    <input name="additionalServices" />
+    <textarea name="specialRequirements"></textarea>
+  </form>
+</body>
+</html>
