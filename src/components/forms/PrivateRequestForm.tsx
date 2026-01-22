@@ -6,7 +6,7 @@ import { Input } from "@/components/ui/Input";
 import { Select } from "@/components/ui/Select";
 import { Textarea } from "@/components/ui/Textarea";
 import { Button } from "@/components/ui/Button";
-import { Check, Lock } from "lucide-react";
+import { Check, Lock, AlertCircle } from "lucide-react";
 import { additionalServices } from "@/data/services";
 
 const cityOptions = [
@@ -32,6 +32,8 @@ const vehicleCountOptions = [
   { value: "4", label: "4+ Vehicles (Convoy)" },
 ];
 
+const FORM_NAME = "private-request";
+
 export function PrivateRequestForm() {
   const searchParams = useSearchParams();
   const preselectedVehicle = searchParams.get("vehicle") || "";
@@ -56,7 +58,7 @@ export function PrivateRequestForm() {
     confidentialityAcknowledged: false,
   });
 
-  const [submitted, setSubmitted] = useState(false);
+  const [status, setStatus] = useState<"idle" | "submitting" | "success" | "error">("idle");
   const [errors, setErrors] = useState<Record<string, string>>({});
 
   const handleInputChange = (
@@ -106,17 +108,48 @@ export function PrivateRequestForm() {
     return Object.keys(newErrors).length === 0;
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (validateForm()) {
-      // In production, this would send to your backend
-      console.log("Form submitted:", formData);
-      setSubmitted(true);
+    if (!validateForm()) return;
+
+    setStatus("submitting");
+
+    try {
+      // Prepare form data for Netlify
+      const netlifyFormData = new FormData();
+      netlifyFormData.append("form-name", FORM_NAME);
+      netlifyFormData.append("firstName", formData.firstName);
+      netlifyFormData.append("lastName", formData.lastName);
+      netlifyFormData.append("email", formData.email);
+      netlifyFormData.append("phone", formData.phone);
+      netlifyFormData.append("organization", formData.organization);
+      netlifyFormData.append("position", formData.position);
+      netlifyFormData.append("city", formData.city);
+      netlifyFormData.append("startDate", formData.startDate);
+      netlifyFormData.append("endDate", formData.endDate);
+      netlifyFormData.append("protectionLevel", formData.protectionLevel);
+      netlifyFormData.append("numberOfVehicles", formData.numberOfVehicles);
+      netlifyFormData.append("additionalServices", formData.additionalServices.join(", "));
+      netlifyFormData.append("specialRequirements", formData.specialRequirements);
+
+      const response = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(netlifyFormData as unknown as Record<string, string>).toString(),
+      });
+
+      if (response.ok) {
+        setStatus("success");
+      } else {
+        throw new Error("Form submission failed");
+      }
+    } catch {
+      setStatus("error");
     }
   };
 
-  if (submitted) {
+  if (status === "success") {
     return (
       <div className="bg-graphite border border-slate/50 p-12 text-center">
         <div className="w-16 h-16 rounded-full bg-available/20 flex items-center justify-center mx-auto mb-6">
@@ -134,8 +167,42 @@ export function PrivateRequestForm() {
     );
   }
 
+  if (status === "error") {
+    return (
+      <div className="bg-graphite border border-red-500/50 p-12 text-center">
+        <div className="w-16 h-16 rounded-full bg-red-500/20 flex items-center justify-center mx-auto mb-6">
+          <AlertCircle className="w-8 h-8 text-red-400" />
+        </div>
+        <h3 className="text-2xl font-light text-platinum mb-4">
+          Submission Error
+        </h3>
+        <p className="text-silver max-w-md mx-auto mb-6">
+          We encountered an error processing your request. Please try again or contact us directly.
+        </p>
+        <Button onClick={() => setStatus("idle")} variant="outline">
+          Try Again
+        </Button>
+      </div>
+    );
+  }
+
   return (
-    <form onSubmit={handleSubmit} className="space-y-8">
+    <form
+      name={FORM_NAME}
+      method="POST"
+      data-netlify="true"
+      netlify-honeypot="bot-field"
+      onSubmit={handleSubmit}
+      className="space-y-8"
+    >
+      {/* Hidden fields for Netlify */}
+      <input type="hidden" name="form-name" value={FORM_NAME} />
+      <p className="hidden">
+        <label>
+          Don&apos;t fill this out if you&apos;re human: <input name="bot-field" />
+        </label>
+      </p>
+
       {/* Personal Information */}
       <div>
         <h3 className="text-xs tracking-[0.2em] text-champagne uppercase mb-6">
@@ -282,6 +349,12 @@ export function PrivateRequestForm() {
             </button>
           ))}
         </div>
+        {/* Hidden input for Netlify to capture selected services */}
+        <input
+          type="hidden"
+          name="additionalServices"
+          value={formData.additionalServices.join(", ")}
+        />
       </div>
 
       {/* Special Requirements */}
@@ -334,8 +407,13 @@ export function PrivateRequestForm() {
 
       {/* Submit */}
       <div className="flex flex-col sm:flex-row items-center gap-4">
-        <Button type="submit" variant="primary" size="lg">
-          Submit Private Request
+        <Button
+          type="submit"
+          variant="primary"
+          size="lg"
+          disabled={status === "submitting"}
+        >
+          {status === "submitting" ? "Submitting..." : "Submit Private Request"}
         </Button>
         <div className="flex items-center gap-2 text-xs text-silver">
           <Lock className="w-3 h-3" />
