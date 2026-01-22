@@ -416,5 +416,152 @@
     "viewDetails": "View Details",
     "from": "from",
     "perDay": "/day"
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy",
+    "badge": "Legal",
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated",
+    "intro": "Armored & Air is committed to protecting your privacy. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our services.",
+    "sections": {
+      "informationCollected": {
+        "title": "Information We Collect",
+        "content": "We collect information that you provide directly to us, including:",
+        "items": [
+          "Personal identification information (name, email address, phone number)",
+          "Organization and professional details",
+          "Service requirements and travel itineraries",
+          "Payment and billing information",
+          "Communication preferences"
+        ]
+      },
+      "howWeUse": {
+        "title": "How We Use Your Information",
+        "content": "We use the information we collect to:",
+        "items": [
+          "Provide, maintain, and improve our armored vehicle services",
+          "Process reservations and transactions",
+          "Coordinate security and logistics operations",
+          "Communicate with you about services, updates, and promotions",
+          "Comply with legal obligations and protect our rights"
+        ]
+      },
+      "dataProtection": {
+        "title": "Data Protection",
+        "content": "We implement robust security measures to protect your personal information, including encryption, secure servers, and strict access controls. All personnel handling sensitive data undergo thorough background checks and confidentiality training."
+      },
+      "informationSharing": {
+        "title": "Information Sharing",
+        "content": "We do not sell, trade, or rent your personal information to third parties. We may share information only in the following circumstances:",
+        "items": [
+          "With your explicit consent",
+          "With service providers who assist in our operations under strict confidentiality agreements",
+          "When required by law or to protect our legal rights",
+          "In connection with a business transfer or merger"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies and Tracking",
+        "content": "Our website uses cookies and similar technologies to enhance your browsing experience, analyze site traffic, and understand user preferences. You can control cookie settings through your browser preferences."
+      },
+      "yourRights": {
+        "title": "Your Rights",
+        "content": "You have the right to:",
+        "items": [
+          "Access and receive a copy of your personal data",
+          "Request correction of inaccurate information",
+          "Request deletion of your personal data",
+          "Object to or restrict processing of your data",
+          "Withdraw consent at any time"
+        ]
+      },
+      "retention": {
+        "title": "Data Retention",
+        "content": "We retain your personal information only for as long as necessary to fulfill the purposes outlined in this policy, unless a longer retention period is required by law."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have questions about this Privacy Policy or wish to exercise your rights, please contact us through our secure channels or at the contact information provided on our website."
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Terms of Service",
+    "badge": "Legal",
+    "title": "Terms of Service",
+    "lastUpdated": "Last Updated",
+    "intro": "Welcome to Armored & Air. These Terms of Service govern your use of our armored vehicle rental services. By using our services, you agree to these terms.",
+    "sections": {
+      "acceptance": {
+        "title": "Acceptance of Terms",
+        "content": "By accessing or using Armored & Air services, you acknowledge that you have read, understood, and agree to be bound by these Terms of Service and our Privacy Policy."
+      },
+      "services": {
+        "title": "Services Description",
+        "content": "Armored & Air provides premium armored vehicle rental services with professional drivers. Our services include:",
+        "items": [
+          "Certified armored vehicle rental (VR4-VR7 protection levels)",
+          "Professional security-trained drivers",
+          "24/7 operations center support",
+          "Multi-city coordination and logistics",
+          "Concierge and additional security services"
+        ]
+      },
+      "reservations": {
+        "title": "Reservations and Payments",
+        "content": "All reservations are subject to vehicle availability and confirmation. A deposit may be required to secure your booking. Payment terms and methods will be specified in your service agreement.",
+        "items": [
+          "Reservations require minimum 48-72 hours advance notice",
+          "Deposit requirements vary based on service duration and vehicle selection",
+          "Full payment is due as specified in your service agreement",
+          "All prices are in USD unless otherwise specified"
+        ]
+      },
+      "cancellations": {
+        "title": "Cancellation Policy",
+        "content": "Cancellation terms depend on timing and service type:",
+        "items": [
+          "More than 7 days before service: Full refund minus processing fees",
+          "3-7 days before service: 50% refund",
+          "Less than 3 days before service: No refund",
+          "World Cup 2026 bookings may have special terms"
+        ]
+      },
+      "clientResponsibilities": {
+        "title": "Client Responsibilities",
+        "content": "As a client, you agree to:",
+        "items": [
+          "Provide accurate and complete information for service coordination",
+          "Comply with all instructions from our security personnel",
+          "Not engage in illegal activities while using our services",
+          "Treat our vehicles, equipment, and personnel with respect",
+          "Report any incidents or concerns immediately to our operations center"
+        ]
+      },
+      "liability": {
+        "title": "Limitation of Liability",
+        "content": "While we maintain the highest standards of protection and service, Armored & Air's liability is limited to the value of services contracted. We are not liable for circumstances beyond our reasonable control, including but not limited to natural disasters, civil unrest, or government actions."
+      },
+      "confidentiality": {
+        "title": "Confidentiality",
+        "content": "We maintain strict confidentiality regarding all client information, itineraries, and service details. Our personnel are bound by confidentiality agreements, and we do not disclose client information except as required by law."
+      },
+      "insurance": {
+        "title": "Insurance",
+        "content": "All our vehicles carry comprehensive insurance coverage. Additional coverage options may be available upon request. Clients are encouraged to maintain their own travel and personal insurance."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "content": "These Terms of Service are governed by the laws of Mexico. Any disputes shall be resolved through arbitration in Mexico City, unless otherwise agreed in writing."
+      },
+      "modifications": {
+        "title": "Modifications to Terms",
+        "content": "We reserve the right to modify these Terms of Service at any time. Changes will be effective upon posting to our website. Continued use of our services constitutes acceptance of modified terms."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "For questions about these Terms of Service, please contact us through our secure channels or at the contact information provided on our website."
+      }
+    }
   }
 }

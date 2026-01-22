@@ -17,6 +17,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/pricing",
     "/contact",
     "/world-cup-2026",
+    "/privacy",
+    "/terms",
   ];
 
   const staticUrls = locales.flatMap((locale) =>

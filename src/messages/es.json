@@ -416,5 +416,152 @@
     "viewDetails": "Ver Detalles",
     "from": "desde",
     "perDay": "/día"
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidad",
+    "badge": "Legal",
+    "title": "Política de Privacidad",
+    "lastUpdated": "Última Actualización",
+    "intro": "Armored & Air está comprometido con la protección de tu privacidad. Esta Política de Privacidad explica cómo recopilamos, usamos, divulgamos y protegemos tu información cuando utilizas nuestros servicios.",
+    "sections": {
+      "informationCollected": {
+        "title": "Información que Recopilamos",
+        "content": "Recopilamos información que nos proporcionas directamente, incluyendo:",
+        "items": [
+          "Información de identificación personal (nombre, correo electrónico, número de teléfono)",
+          "Detalles de organización y profesionales",
+          "Requisitos de servicio e itinerarios de viaje",
+          "Información de pago y facturación",
+          "Preferencias de comunicación"
+        ]
+      },
+      "howWeUse": {
+        "title": "Cómo Usamos Tu Información",
+        "content": "Usamos la información que recopilamos para:",
+        "items": [
+          "Proporcionar, mantener y mejorar nuestros servicios de vehículos blindados",
+          "Procesar reservaciones y transacciones",
+          "Coordinar operaciones de seguridad y logística",
+          "Comunicarnos contigo sobre servicios, actualizaciones y promociones",
+          "Cumplir con obligaciones legales y proteger nuestros derechos"
+        ]
+      },
+      "dataProtection": {
+        "title": "Protección de Datos",
+        "content": "Implementamos medidas de seguridad robustas para proteger tu información personal, incluyendo encriptación, servidores seguros y controles de acceso estrictos. Todo el personal que maneja datos sensibles se somete a verificaciones de antecedentes exhaustivas y capacitación en confidencialidad."
+      },
+      "informationSharing": {
+        "title": "Compartir Información",
+        "content": "No vendemos, intercambiamos ni alquilamos tu información personal a terceros. Podemos compartir información solo en las siguientes circunstancias:",
+        "items": [
+          "Con tu consentimiento explícito",
+          "Con proveedores de servicios que asisten en nuestras operaciones bajo acuerdos estrictos de confidencialidad",
+          "Cuando lo requiera la ley o para proteger nuestros derechos legales",
+          "En conexión con una transferencia de negocio o fusión"
+        ]
+      },
+      "cookies": {
+        "title": "Cookies y Seguimiento",
+        "content": "Nuestro sitio web utiliza cookies y tecnologías similares para mejorar tu experiencia de navegación, analizar el tráfico del sitio y comprender las preferencias de los usuarios. Puedes controlar la configuración de cookies a través de las preferencias de tu navegador."
+      },
+      "yourRights": {
+        "title": "Tus Derechos",
+        "content": "Tienes derecho a:",
+        "items": [
+          "Acceder y recibir una copia de tus datos personales",
+          "Solicitar la corrección de información inexacta",
+          "Solicitar la eliminación de tus datos personales",
+          "Oponerte o restringir el procesamiento de tus datos",
+          "Retirar tu consentimiento en cualquier momento"
+        ]
+      },
+      "retention": {
+        "title": "Retención de Datos",
+        "content": "Retenemos tu información personal solo durante el tiempo necesario para cumplir con los propósitos descritos en esta política, a menos que la ley requiera un período de retención más largo."
+      },
+      "contact": {
+        "title": "Contáctanos",
+        "content": "Si tienes preguntas sobre esta Política de Privacidad o deseas ejercer tus derechos, contáctanos a través de nuestros canales seguros o en la información de contacto proporcionada en nuestro sitio web."
+      }
+    }
+  },
+  "terms": {
+    "pageTitle": "Términos de Servicio",
+    "badge": "Legal",
+    "title": "Términos de Servicio",
+    "lastUpdated": "Última Actualización",
+    "intro": "Bienvenido a Armored & Air. Estos Términos de Servicio rigen tu uso de nuestros servicios de alquiler de vehículos blindados. Al usar nuestros servicios, aceptas estos términos.",
+    "sections": {
+      "acceptance": {
+        "title": "Aceptación de Términos",
+        "content": "Al acceder o usar los servicios de Armored & Air, reconoces que has leído, entendido y aceptas estar sujeto a estos Términos de Servicio y nuestra Política de Privacidad."
+      },
+      "services": {
+        "title": "Descripción de Servicios",
+        "content": "Armored & Air proporciona servicios premium de alquiler de vehículos blindados con conductores profesionales. Nuestros servicios incluyen:",
+        "items": [
+          "Alquiler de vehículos blindados certificados (niveles de protección VR4-VR7)",
+          "Conductores profesionales con entrenamiento en seguridad",
+          "Soporte del centro de operaciones 24/7",
+          "Coordinación y logística multi-ciudad",
+          "Servicios de concierge y seguridad adicional"
+        ]
+      },
+      "reservations": {
+        "title": "Reservaciones y Pagos",
+        "content": "Todas las reservaciones están sujetas a disponibilidad del vehículo y confirmación. Se puede requerir un depósito para asegurar tu reserva. Los términos y métodos de pago se especificarán en tu contrato de servicio.",
+        "items": [
+          "Las reservaciones requieren un mínimo de 48-72 horas de anticipación",
+          "Los requisitos de depósito varían según la duración del servicio y selección del vehículo",
+          "El pago completo vence según se especifica en tu contrato de servicio",
+          "Todos los precios están en USD a menos que se especifique lo contrario"
+        ]
+      },
+      "cancellations": {
+        "title": "Política de Cancelación",
+        "content": "Los términos de cancelación dependen del momento y tipo de servicio:",
+        "items": [
+          "Más de 7 días antes del servicio: Reembolso completo menos tarifas de procesamiento",
+          "3-7 días antes del servicio: 50% de reembolso",
+          "Menos de 3 días antes del servicio: Sin reembolso",
+          "Las reservas de Copa Mundial 2026 pueden tener términos especiales"
+        ]
+      },
+      "clientResponsibilities": {
+        "title": "Responsabilidades del Cliente",
+        "content": "Como cliente, aceptas:",
+        "items": [
+          "Proporcionar información precisa y completa para la coordinación del servicio",
+          "Cumplir con todas las instrucciones de nuestro personal de seguridad",
+          "No participar en actividades ilegales mientras usas nuestros servicios",
+          "Tratar nuestros vehículos, equipos y personal con respeto",
+          "Reportar cualquier incidente o inquietud inmediatamente a nuestro centro de operaciones"
+        ]
+      },
+      "liability": {
+        "title": "Limitación de Responsabilidad",
+        "content": "Aunque mantenemos los más altos estándares de protección y servicio, la responsabilidad de Armored & Air está limitada al valor de los servicios contratados. No somos responsables por circunstancias fuera de nuestro control razonable, incluyendo pero no limitado a desastres naturales, disturbios civiles o acciones gubernamentales."
+      },
+      "confidentiality": {
+        "title": "Confidencialidad",
+        "content": "Mantenemos estricta confidencialidad respecto a toda la información del cliente, itinerarios y detalles del servicio. Nuestro personal está sujeto a acuerdos de confidencialidad, y no divulgamos información del cliente excepto cuando lo requiere la ley."
+      },
+      "insurance": {
+        "title": "Seguro",
+        "content": "Todos nuestros vehículos cuentan con cobertura de seguro integral. Opciones de cobertura adicional pueden estar disponibles bajo solicitud. Se alienta a los clientes a mantener su propio seguro de viaje y personal."
+      },
+      "governingLaw": {
+        "title": "Ley Aplicable",
+        "content": "Estos Términos de Servicio se rigen por las leyes de México. Cualquier disputa se resolverá mediante arbitraje en la Ciudad de México, a menos que se acuerde lo contrario por escrito."
+      },
+      "modifications": {
+        "title": "Modificaciones a los Términos",
+        "content": "Nos reservamos el derecho de modificar estos Términos de Servicio en cualquier momento. Los cambios serán efectivos al publicarse en nuestro sitio web. El uso continuado de nuestros servicios constituye aceptación de los términos modificados."
+      },
+      "contact": {
+        "title": "Contacto",
+        "content": "Para preguntas sobre estos Términos de Servicio, contáctanos a través de nuestros canales seguros o en la información de contacto proporcionada en nuestro sitio web."
+      }
+    }
   }
 }
