@@ -16,8 +16,23 @@ const cormorant = Cormorant_Garamond({
 });
 
 export const metadata: Metadata = {
-  title: "Armored & Air",
-  description: "Premium armored vehicle rental for FIFA World Cup 2026 in Mexico.",
+  metadataBase: new URL("https://armored-air.netlify.app"),
+  title: {
+    default: "Armored & Air | Premium Armored Vehicle Rental",
+    template: "%s | Armored & Air",
+  },
+  description: "Premium armored vehicle rental for FIFA World Cup 2026 in Mexico. Executive protection in Mexico City, Guadalajara, and Monterrey.",
+  keywords: ["armored vehicles", "executive protection", "World Cup 2026", "Mexico", "VIP transport", "security"],
+  openGraph: {
+    type: "website",
+    locale: "en_US",
+    alternateLocale: "es_MX",
+    siteName: "Armored & Air",
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 export default function RootLayout({

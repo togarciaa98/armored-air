@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://armored-air.netlify.app/sitemap.xml
