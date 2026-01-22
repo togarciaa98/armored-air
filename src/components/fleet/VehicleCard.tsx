@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import type { Vehicle } from "@/types";
@@ -13,6 +14,8 @@ interface VehicleCardProps {
 }
 
 export function VehicleCard({ vehicle, index = 0 }: VehicleCardProps) {
+  const t = useTranslations('fleet.vehicleCard');
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -70,9 +73,9 @@ export function VehicleCard({ vehicle, index = 0 }: VehicleCardProps) {
                 <p className="text-sm text-platinum mt-1">{vehicle.specs.capacity}</p>
               </div>
               <div>
-                <p className="text-xs text-silver uppercase tracking-wider">From</p>
+                <p className="text-xs text-silver uppercase tracking-wider">{t('from')}</p>
                 <p className="text-sm text-champagne mt-1">
-                  {formatCurrency(vehicle.pricing.daily)}/day
+                  {formatCurrency(vehicle.pricing.daily)}{t('perDay')}
                 </p>
               </div>
             </div>

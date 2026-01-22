@@ -1,11 +1,14 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion } from "framer-motion";
 import { ArrowRight, MapPin } from "lucide-react";
 import { cities } from "@/data/cities";
 
 export function CitySelector() {
+  const t = useTranslations('citySelector');
+
   return (
     <section className="py-24 bg-obsidian">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
@@ -18,14 +21,13 @@ export function CitySelector() {
           className="text-center mb-16"
         >
           <span className="inline-block text-xs tracking-[0.4em] text-champagne uppercase mb-4">
-            Coverage Areas
+            {t('badge')}
           </span>
           <h2 className="text-3xl md:text-4xl font-light text-platinum mb-4">
-            Host Cities
+            {t('title')}
           </h2>
           <p className="text-silver max-w-2xl mx-auto">
-            Comprehensive coverage across all Mexican host cities for FIFA World Cup 2026.
-            Local expertise, global standards.
+            {t('description')}
           </p>
         </motion.div>
 

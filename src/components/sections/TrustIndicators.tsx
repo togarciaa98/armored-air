@@ -1,26 +1,30 @@
 "use client";
 
+import { useTranslations } from 'next-intl';
 import { motion } from "framer-motion";
 import { Shield, Lock, Clock, Award } from "lucide-react";
-import { TRUST_INDICATORS } from "@/lib/constants";
 
-const icons = {
-  0: Shield,
-  1: Award,
-  2: Lock,
-  3: Clock,
-};
+const icons = [Shield, Award, Lock, Clock];
 
 export function TrustIndicators() {
+  const t = useTranslations('trustIndicators');
+
+  const items = [
+    { title: t('items.0.title'), description: t('items.0.description') },
+    { title: t('items.1.title'), description: t('items.1.description') },
+    { title: t('items.2.title'), description: t('items.2.description') },
+    { title: t('items.3.title'), description: t('items.3.description') },
+  ];
+
   return (
     <section className="py-20 bg-obsidian border-y border-slate/20">
       <div className="max-w-7xl mx-auto px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {TRUST_INDICATORS.map((indicator, index) => {
-            const Icon = icons[index as keyof typeof icons];
+          {items.map((indicator, index) => {
+            const Icon = icons[index];
             return (
               <motion.div
-                key={indicator.title}
+                key={index}
                 initial={{ opacity: 0, y: 20 }}
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}

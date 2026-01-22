@@ -1,11 +1,14 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/Button";
 import { ChevronDown } from "lucide-react";
 
 export function Hero() {
+  const t = useTranslations('hero');
+
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
@@ -44,7 +47,7 @@ export function Hero() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block text-xs tracking-[0.4em] text-champagne uppercase mb-6">
-              FIFA World Cup 2026 — Mexico
+              {t('preHeadline')}
             </span>
           </motion.div>
 
@@ -55,7 +58,7 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-5xl md:text-6xl lg:text-7xl font-light tracking-tight text-platinum mb-6"
           >
-            Command Every Mile
+            {t('headline')}
           </motion.h1>
 
           {/* Subheadline */}
@@ -65,9 +68,9 @@ export function Hero() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-lg md:text-xl text-silver font-light leading-relaxed max-w-2xl mx-auto mb-12"
           >
-            Armored luxury vehicles for the world&apos;s most protected journeys.
+            {t('subheadline')}
             <br className="hidden md:block" />
-            Security, discretion, and excellence—without compromise.
+            {t('subheadline2')}
           </motion.p>
 
           {/* CTAs */}
@@ -79,12 +82,12 @@ export function Hero() {
           >
             <Link href="/contact">
               <Button variant="primary" size="lg">
-                Request Private Quote
+                {t('cta.quote')}
               </Button>
             </Link>
             <Link href="/fleet">
               <Button variant="outline" size="lg">
-                Explore Fleet
+                {t('cta.fleet')}
               </Button>
             </Link>
           </motion.div>
@@ -100,25 +103,25 @@ export function Hero() {
               <div className="text-center">
                 <p className="text-2xl font-light text-champagne">24/7</p>
                 <p className="text-xs text-silver uppercase tracking-wider mt-1">
-                  Secure Operations
+                  {t('stats.secureOps')}
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-light text-champagne">VR4-VR7</p>
                 <p className="text-xs text-silver uppercase tracking-wider mt-1">
-                  Protection Levels
+                  {t('stats.protection')}
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-light text-champagne">3</p>
                 <p className="text-xs text-silver uppercase tracking-wider mt-1">
-                  Host Cities
+                  {t('stats.hostCities')}
                 </p>
               </div>
               <div className="text-center">
                 <p className="text-2xl font-light text-champagne">15+</p>
                 <p className="text-xs text-silver uppercase tracking-wider mt-1">
-                  Years Excellence
+                  {t('stats.yearsExcellence')}
                 </p>
               </div>
             </div>

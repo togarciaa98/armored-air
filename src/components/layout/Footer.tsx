@@ -1,8 +1,22 @@
-import Link from "next/link";
+"use client";
+
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Shield, Lock, Clock } from "lucide-react";
-import { NAV_LINKS, SITE_NAME, CONTACT_INFO } from "@/lib/constants";
+import { SITE_NAME, CONTACT_INFO } from "@/lib/constants";
 
 export function Footer() {
+  const t = useTranslations('footer');
+  const tNav = useTranslations('navigation');
+
+  const navLinks = [
+    { label: tNav('fleet'), href: '/fleet' },
+    { label: tNav('pricing'), href: '/pricing' },
+    { label: tNav('services'), href: '/services' },
+    { label: tNav('worldCup'), href: '/world-cup-2026' },
+    { label: tNav('cities'), href: '/cities' },
+  ];
+
   return (
     <footer className="bg-onyx border-t border-slate/30">
       {/* Trust Bar */}
@@ -12,22 +26,22 @@ export function Footer() {
             <div className="flex items-center space-x-4">
               <Shield className="w-5 h-5 text-champagne" />
               <div>
-                <p className="text-sm font-medium text-platinum">Certified Protection</p>
-                <p className="text-xs text-silver">VR4 to VR7 armoring standards</p>
+                <p className="text-sm font-medium text-platinum">{t('certifiedProtection')}</p>
+                <p className="text-xs text-silver">{t('certifiedProtectionDesc')}</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Lock className="w-5 h-5 text-champagne" />
               <div>
-                <p className="text-sm font-medium text-platinum">Complete Discretion</p>
-                <p className="text-xs text-silver">Your privacy is paramount</p>
+                <p className="text-sm font-medium text-platinum">{t('completeDiscretion')}</p>
+                <p className="text-xs text-silver">{t('completeDiscretionDesc')}</p>
               </div>
             </div>
             <div className="flex items-center space-x-4">
               <Clock className="w-5 h-5 text-champagne" />
               <div>
-                <p className="text-sm font-medium text-platinum">24/7 Operations</p>
-                <p className="text-xs text-silver">Always at your service</p>
+                <p className="text-sm font-medium text-platinum">{t('operations24')}</p>
+                <p className="text-xs text-silver">{t('operations24Desc')}</p>
               </div>
             </div>
           </div>
@@ -45,18 +59,17 @@ export function Footer() {
               </span>
             </Link>
             <p className="mt-4 text-sm text-silver leading-relaxed">
-              Premium armored vehicle services for FIFA World Cup 2026 in Mexico.
-              Security, luxury, and absolute discretion.
+              {t('description')}
             </p>
           </div>
 
           {/* Navigation */}
           <div>
             <h3 className="text-xs font-medium tracking-[0.2em] text-champagne uppercase mb-6">
-              Navigation
+              {t('navigation')}
             </h3>
             <ul className="space-y-3">
-              {NAV_LINKS.map((link) => (
+              {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     href={link.href}
@@ -72,7 +85,7 @@ export function Footer() {
           {/* Cities */}
           <div>
             <h3 className="text-xs font-medium tracking-[0.2em] text-champagne uppercase mb-6">
-              Host Cities
+              {t('hostCities')}
             </h3>
             <ul className="space-y-3">
               <li>
@@ -105,23 +118,23 @@ export function Footer() {
           {/* Contact */}
           <div>
             <h3 className="text-xs font-medium tracking-[0.2em] text-champagne uppercase mb-6">
-              Secure Contact
+              {t('secureContact')}
             </h3>
             <ul className="space-y-3">
               <li className="text-sm text-silver">
-                <span className="text-platinum">Secure Line:</span>
+                <span className="text-platinum">{t('secureLine')}:</span>
                 <br />
                 {CONTACT_INFO.phone}
               </li>
               <li className="text-sm text-silver">
-                <span className="text-platinum">Encrypted Email:</span>
+                <span className="text-platinum">{t('encryptedEmail')}:</span>
                 <br />
                 {CONTACT_INFO.email}
               </li>
               <li className="text-sm text-silver">
-                <span className="text-platinum">Response Time:</span>
+                <span className="text-platinum">{t('responseTime')}:</span>
                 <br />
-                Within {CONTACT_INFO.responseTime}
+                {t('within')} {CONTACT_INFO.responseTime}
               </li>
             </ul>
           </div>
@@ -133,20 +146,20 @@ export function Footer() {
         <div className="max-w-7xl mx-auto px-6 lg:px-8 py-6">
           <div className="flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-xs text-silver">
-              &copy; {new Date().getFullYear()} {SITE_NAME}. All rights reserved.
+              &copy; {new Date().getFullYear()} {SITE_NAME}. {t('allRightsReserved')}.
             </p>
             <div className="flex items-center space-x-6">
               <Link
                 href="/privacy"
                 className="text-xs text-silver hover:text-platinum transition-colors"
               >
-                Privacy Policy
+                {t('privacyPolicy')}
               </Link>
               <Link
                 href="/terms"
                 className="text-xs text-silver hover:text-platinum transition-colors"
               >
-                Terms of Service
+                {t('termsOfService')}
               </Link>
             </div>
           </div>

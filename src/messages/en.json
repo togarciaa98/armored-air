@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "title": "Armored & Air | Armored Luxury Vehicles | FIFA World Cup 2026 Mexico",
+    "description": "Premium armored vehicle rental for FIFA World Cup 2026 in Mexico. Executive protection, luxury fleet, and complete discretion."
+  },
+  "navigation": {
+    "fleet": "Fleet",
+    "pricing": "Pricing",
+    "services": "Services",
+    "worldCup": "World Cup 2026",
+    "cities": "Cities",
+    "requestQuote": "Request Quote"
+  },
+  "hero": {
+    "preHeadline": "FIFA World Cup 2026 — Mexico",
+    "headline": "Command Every Mile",
+    "subheadline": "Armored luxury vehicles for the world's most protected journeys.",
+    "subheadline2": "Security, discretion, and excellence—without compromise.",
+    "cta": {
+      "quote": "Request Private Quote",
+      "fleet": "Explore Fleet"
+    },
+    "stats": {
+      "secureOps": "Secure Operations",
+      "protection": "Protection Levels",
+      "hostCities": "Host Cities",
+      "yearsExcellence": "Years Excellence"
+    }
+  },
+  "footer": {
+    "description": "Premium armored vehicle services for FIFA World Cup 2026 in Mexico. Security, luxury, and absolute discretion.",
+    "navigation": "Navigation",
+    "hostCities": "Host Cities",
+    "secureContact": "Secure Contact",
+    "secureLine": "Secure Line",
+    "encryptedEmail": "Encrypted Email",
+    "responseTime": "Response Time",
+    "within": "Within",
+    "certifiedProtection": "Certified Protection",
+    "certifiedProtectionDesc": "VR4 to VR7 armoring standards",
+    "completeDiscretion": "Complete Discretion",
+    "completeDiscretionDesc": "Your privacy is paramount",
+    "operations24": "24/7 Operations",
+    "operations24Desc": "Always at your service",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "allRightsReserved": "All rights reserved"
+  },
+  "fleet": {
+    "pageTitle": "Fleet",
+    "badge": "Armored Fleet",
+    "title": "Complete Vehicle Collection",
+    "description": "Every vehicle in our fleet is certified to international protection standards, meticulously maintained, and available with professional security drivers. Select your level of protection.",
+    "filters": {
+      "category": "Category",
+      "all": "All",
+      "suv": "SUV",
+      "sedan": "Sedan",
+      "performance": "Performance",
+      "protectionLevel": "Protection Level",
+      "city": "City",
+      "allCities": "All Cities",
+      "mexicoCity": "Mexico City",
+      "guadalajara": "Guadalajara",
+      "monterrey": "Monterrey"
+    },
+    "results": {
+      "showing": "Showing",
+      "vehicle": "vehicle",
+      "vehicles": "vehicles",
+      "noResults": "No vehicles match your current filters.",
+      "clearFilters": "Clear all filters"
+    },
+    "cta": {
+      "title": "Need assistance selecting the right vehicle?",
+      "description": "Our security consultants can help match your protection requirements with the ideal vehicle from our fleet.",
+      "button": "Request Consultation"
+    },
+    "vehicleCard": {
+      "from": "from",
+      "perDay": "/day",
+      "viewDetails": "View Details"
+    }
+  },
+  "pricing": {
+    "pageTitle": "Pricing",
+    "badge": "Pricing",
+    "title": "Transparent Excellence",
+    "description": "Our rates reflect the uncompromising standards of protection and service that define every journey. Each tier includes professional drivers and 24/7 operational support.",
+    "protectionTiers": {
+      "title": "Protection Tiers",
+      "description": "Select the level of protection that matches your security requirements. All tiers include certified armored vehicles and trained drivers.",
+      "mostPopular": "Most Popular",
+      "perDay": "/day",
+      "requestQuote": "Request Quote"
+    },
+    "worldCupPackages": {
+      "title": "World Cup 2026 Packages",
+      "description": "Specialized packages designed for FIFA World Cup 2026 in Mexico. Secure your fleet early for priority access.",
+      "from": "from",
+      "customQuote": "Custom Quote",
+      "exploreButton": "Explore World Cup Packages"
+    },
+    "included": {
+      "title": "What's Included",
+      "items": [
+        "Certified armored vehicle with full documentation",
+        "Professional security-trained driver",
+        "24/7 operations center support",
+        "Comprehensive insurance coverage",
+        "GPS tracking and monitoring"
+      ]
+    },
+    "additional": {
+      "title": "Additional Services",
+      "description": "Rates vary depending on security level, city, duration, and specific services required. Additional charges may apply for:",
+      "items": [
+        "Multi-vehicle convoys",
+        "Extended operational hours",
+        "Inter-city transfers",
+        "Security escort coordination",
+        "Airport meet and greet services",
+        "Special event logistics"
+      ]
+    },
+    "cta": {
+      "subtitle": "All quotes are confidential and tailored to your specific requirements",
+      "title": "Ready to discuss your security needs?",
+      "button": "Request Private Quote"
+    }
+  },
+  "services": {
+    "pageTitle": "Security & Concierge Services",
+    "badge": "Services",
+    "title": "Security & Concierge",
+    "description": "Beyond the vehicle, we provide comprehensive support that ensures every aspect of your journey is handled with precision and discretion. Our services are designed to integrate seamlessly with your existing security protocols.",
+    "process": {
+      "title": "How We Work",
+      "description": "Our engagement process is designed for discretion and efficiency, ensuring your requirements are met with the utmost precision.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Initial Consultation",
+          "description": "Confidential discussion of your security requirements, travel itinerary, and specific needs."
+        },
+        {
+          "step": "02",
+          "title": "Security Assessment",
+          "description": "Our team evaluates routes, venues, and potential considerations to recommend the optimal solution."
+        },
+        {
+          "step": "03",
+          "title": "Fleet Assignment",
+          "description": "Selection of appropriate vehicles and personnel matched to your protection profile."
+        },
+        {
+          "step": "04",
+          "title": "Operational Execution",
+          "description": "Seamless service delivery with real-time monitoring and 24/7 support throughout your engagement."
+        }
+      ]
+    },
+    "worldCup": {
+      "badge": "World Cup 2026 Specialized Services",
+      "title": "Tournament-Ready Operations",
+      "description": "For FIFA World Cup 2026, we offer enhanced services specifically designed for the unique demands of the tournament, including multi-city coordination, stadium logistics, and heightened security protocols.",
+      "features": [
+        "Pre-event route reconnaissance for all venues",
+        "Stadium arrival and departure coordination",
+        "Multi-city fleet positioning",
+        "VIP holding area access management",
+        "Integration with official event security",
+        "Emergency contingency planning"
+      ],
+      "worldCupReady": "World Cup Ready",
+      "exploreButton": "Explore World Cup Services"
+    },
+    "cta": {
+      "title": "Discuss Your Requirements",
+      "description": "Every engagement is unique. Contact us to discuss how we can tailor our services to your specific security and logistics needs.",
+      "button": "Request Consultation"
+    }
+  },
+  "cities": {
+    "pageTitle": "Cities Covered",
+    "badge": "Coverage",
+    "title": "Host Cities",
+    "description": "Comprehensive armored vehicle coverage across all FIFA World Cup 2026 host cities in Mexico. Local expertise, dedicated fleets, and seamless multi-city coordination.",
+    "suvsAvailable": "SUVs Available",
+    "sedansAvailable": "Sedans Available",
+    "performance": "Performance",
+    "viewFleet": "View {city} Fleet",
+    "coverageAreas": "Coverage Areas",
+    "more": "more",
+    "multiCity": {
+      "badge": "Multi-City Coordination",
+      "title": "Seamless Inter-City Movement",
+      "description": "For itineraries spanning multiple host cities, we coordinate vehicle positioning, driver assignments, and logistics to ensure continuous protection throughout your journey.",
+      "features": [
+        {
+          "title": "Vehicle Positioning",
+          "description": "Your selected vehicle awaits in each city, or accompanies you via secure transport between locations."
+        },
+        {
+          "title": "Driver Continuity",
+          "description": "Option for consistent driver assignment across cities or local specialists in each location."
+        },
+        {
+          "title": "Unified Operations",
+          "description": "Single point of contact through our operations center for all cities and requirements."
+        }
+      ]
+    },
+    "cta": {
+      "title": "Planning a Multi-City Itinerary?",
+      "description": "Our team specializes in coordinating complex schedules across all Mexican World Cup host cities.",
+      "button": "Request Multi-City Quote"
+    }
+  },
+  "worldCup": {
+    "pageTitle": "FIFA World Cup 2026 Experience",
+    "badge": "Special Event Coverage",
+    "title": "FIFA World Cup 2026",
+    "subtitle": "Mexico",
+    "description": "Move through the tournament with absolute confidence. From group stage to final whistle, our dedicated World Cup fleet ensures secure, luxurious transport across all Mexican host cities.",
+    "reserveNow": "Reserve Your Fleet Now",
+    "hostCities": {
+      "title": "Mexico Host Cities",
+      "description": "Complete coverage across all Mexican venues with dedicated fleets and local expertise in each city.",
+      "suvs": "SUVs",
+      "sedans": "Sedans",
+      "total": "Total",
+      "viewCityFleet": "View City Fleet"
+    },
+    "packages": {
+      "title": "Tournament Packages",
+      "description": "Tailored solutions for every level of World Cup engagement, from individual matches to complete tournament coverage.",
+      "from": "from",
+      "customQuote": "Custom Quote"
+    },
+    "features": {
+      "title": "Tournament Services",
+      "description": "Specialized capabilities designed for the unique demands of a global sporting event.",
+      "items": [
+        {
+          "title": "Multi-City Coordination",
+          "description": "Seamless vehicle positioning across Mexico City, Guadalajara, and Monterrey as your itinerary evolves."
+        },
+        {
+          "title": "Match Day Logistics",
+          "description": "Coordinated arrival and departure timing optimized for stadium security protocols and crowd management."
+        },
+        {
+          "title": "Enhanced Security",
+          "description": "Heightened protection protocols appropriate for high-profile international events."
+        },
+        {
+          "title": "Group Transport",
+          "description": "Multi-vehicle convoy capability for corporate delegations, families, and security details."
+        },
+        {
+          "title": "VIP Access Support",
+          "description": "Coordination with venue VIP facilities, hospitality suites, and exclusive event areas."
+        },
+        {
+          "title": "Flexible Scheduling",
+          "description": "Adaptable service that adjusts to match results, schedule changes, and evolving plans."
+        }
+      ]
+    },
+    "earlyBooking": {
+      "badge": "Early Booking Benefits",
+      "title": "Secure Your Fleet Now",
+      "description": "With limited armored vehicle availability in Mexico during the World Cup, early reservation ensures access to our premium fleet and preferred vehicle selection.",
+      "benefits": [
+        "Priority access to flagship vehicles",
+        "Dedicated account manager assigned",
+        "Locked-in rates with no tournament surge",
+        "First selection of certified drivers",
+        "Guaranteed availability for your dates"
+      ],
+      "button": "Reserve Early",
+      "bookNow": "Book Now"
+    },
+    "cta": {
+      "title": "Ready for the World Cup?",
+      "description": "Contact us to discuss your World Cup 2026 requirements. Our team specializes in high-profile event logistics.",
+      "quoteButton": "Request World Cup Quote",
+      "fleetButton": "View Fleet"
+    }
+  },
+  "contact": {
+    "pageTitle": "Private Request",
+    "badge": "Contact",
+    "title": "Private Request",
+    "description": "Every inquiry is handled with absolute discretion. Your information is protected by strict confidentiality protocols and is never shared with third parties.",
+    "directContact": {
+      "title": "Direct Contact",
+      "secureLine": "Secure Line",
+      "encryptedEmail": "Encrypted Email",
+      "responseTime": "Response Time",
+      "within": "Within"
+    },
+    "commitment": {
+      "title": "Our Commitment",
+      "certifiedProtection": "Certified Protection",
+      "certifiedProtectionDesc": "VR4-VR7 armoring standards",
+      "completeDiscretion": "Complete Discretion",
+      "completeDiscretionDesc": "Your privacy is paramount",
+      "operations24": "24/7 Operations",
+      "operations24Desc": "Always at your service"
+    },
+    "urgent": {
+      "title": "Urgent Requirements",
+      "description": "For immediate assistance or time-sensitive requests, contact our 24/7 operations center directly."
+    },
+    "form": {
+      "title": "Request Details",
+      "fullName": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "organization": "Organization/Company",
+      "optional": "Optional",
+      "preferredCity": "Preferred City",
+      "selectCity": "Select city",
+      "protectionLevel": "Protection Level",
+      "selectProtection": "Select protection level",
+      "lowProfile": "Low Profile (VR4-VR5)",
+      "executive": "Executive (VR5-VR6)",
+      "highRisk": "High Risk (VR6-VR7)",
+      "notSure": "Not Sure - Need Consultation",
+      "vehiclesNeeded": "Number of Vehicles",
+      "selectQuantity": "Select quantity",
+      "vehicle": "vehicle",
+      "vehicles": "vehicles",
+      "orMore": "or more",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "additionalServices": "Additional Services",
+      "airportTransfers": "Airport Transfers",
+      "multiCityService": "Multi-City Service",
+      "securityPersonnel": "Security Personnel",
+      "conciergeServices": "Concierge Services",
+      "specialRequirements": "Special Requirements or Notes",
+      "specialRequirementsPlaceholder": "Any specific requirements, security considerations, or questions...",
+      "submit": "Submit Private Request",
+      "submitting": "Submitting..."
+    },
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "questions": [
+        {
+          "q": "How quickly can you arrange a vehicle?",
+          "a": "Standard bookings require 48-72 hours notice. For urgent requirements, contact our operations center directly for same-day availability."
+        },
+        {
+          "q": "Are your vehicles truly armored?",
+          "a": "All vehicles are certified to international ballistic standards (VR4-VR7) by recognized testing laboratories. Documentation available upon request."
+        },
+        {
+          "q": "Do you operate outside the listed cities?",
+          "a": "Yes, we can arrange service throughout Mexico with advance notice. Contact us for custom logistics solutions."
+        },
+        {
+          "q": "Can I request a specific driver?",
+          "a": "For extended engagements, we match drivers to clients based on language, experience, and compatibility. Specific requests can be accommodated."
+        }
+      ]
+    }
+  },
+  "trustIndicators": {
+    "title": "Trusted by",
+    "items": [
+      {
+        "title": "24/7 Secure Operations",
+        "description": "Round-the-clock monitoring and support"
+      },
+      {
+        "title": "Certified Specialists",
+        "description": "Background-verified protection professionals"
+      },
+      {
+        "title": "Absolute Discretion",
+        "description": "Your privacy is our highest priority"
+      },
+      {
+        "title": "15+ Years Excellence",
+        "description": "Serving the global elite since 2009"
+      }
+    ]
+  },
+  "fleetShowcase": {
+    "badge": "Featured Vehicles",
+    "title": "Select From Our Fleet",
+    "description": "Each vehicle in our collection is meticulously selected and certified to the highest protection standards.",
+    "viewAll": "View Complete Fleet",
+    "from": "from",
+    "perDay": "/day"
+  },
+  "worldCupBanner": {
+    "badge": "Now Accepting Reservations",
+    "title": "FIFA World Cup 2026",
+    "description": "Secure your armored fleet for the tournament of a lifetime. Limited availability across all Mexican host cities.",
+    "button": "Reserve for World Cup"
+  },
+  "citySelector": {
+    "badge": "Coverage Areas",
+    "title": "Serving All Host Cities",
+    "description": "Comprehensive armored vehicle services across all FIFA World Cup 2026 host cities in Mexico.",
+    "viewDetails": "View Details",
+    "viewAll": "View All Cities"
+  },
+  "common": {
+    "backTo": "Back to",
+    "learnMore": "Learn More",
+    "viewDetails": "View Details",
+    "from": "from",
+    "perDay": "/day"
+  }
+}

@@ -1,15 +1,26 @@
 "use client";
 
-import Link from "next/link";
 import { useState, useEffect } from "react";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { Menu, X } from "lucide-react";
 import { cn } from "@/lib/utils";
-import { NAV_LINKS, SITE_NAME } from "@/lib/constants";
+import { SITE_NAME } from "@/lib/constants";
 import { Button } from "@/components/ui/Button";
+import { LocaleSwitcher } from "@/components/ui/LocaleSwitcher";
 
 export function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const t = useTranslations('navigation');
+
+  const navLinks = [
+    { label: t('fleet'), href: '/fleet' },
+    { label: t('pricing'), href: '/pricing' },
+    { label: t('services'), href: '/services' },
+    { label: t('worldCup'), href: '/world-cup-2026' },
+    { label: t('cities'), href: '/cities' },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -39,7 +50,7 @@ export function Navigation() {
 
           {/* Desktop Navigation */}
           <div className="hidden lg:flex items-center space-x-8">
-            {NAV_LINKS.map((link) => (
+            {navLinks.map((link) => (
               <Link
                 key={link.href}
                 href={link.href}
@@ -50,11 +61,12 @@ export function Navigation() {
             ))}
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden lg:block">
+          {/* CTA Button & Language Switcher */}
+          <div className="hidden lg:flex items-center space-x-4">
+            <LocaleSwitcher />
             <Link href="/contact">
               <Button variant="outline" size="sm">
-                Request Quote
+                {t('requestQuote')}
               </Button>
             </Link>
           </div>
@@ -78,7 +90,7 @@ export function Navigation() {
         )}
       >
         <div className="flex flex-col items-center justify-center h-full space-y-8 p-8">
-          {NAV_LINKS.map((link) => (
+          {navLinks.map((link) => (
             <Link
               key={link.href}
               href={link.href}
@@ -88,10 +100,13 @@ export function Navigation() {
               {link.label}
             </Link>
           ))}
-          <div className="pt-8 border-t border-slate/30 w-48">
+          <div className="pt-8 border-t border-slate/30 w-48 space-y-4">
+            <div className="flex justify-center">
+              <LocaleSwitcher />
+            </div>
             <Link href="/contact" onClick={() => setIsOpen(false)}>
               <Button variant="primary" size="lg" className="w-full">
-                Request Quote
+                {t('requestQuote')}
               </Button>
             </Link>
           </div>

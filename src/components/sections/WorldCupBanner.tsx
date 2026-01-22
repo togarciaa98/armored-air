@@ -1,12 +1,16 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion } from "framer-motion";
 import { Calendar, MapPin, ArrowRight } from "lucide-react";
 import { Button } from "@/components/ui/Button";
 import { WORLD_CUP_2026 } from "@/lib/constants";
 
 export function WorldCupBanner() {
+  const t = useTranslations('worldCupBanner');
+  const tWorldCup = useTranslations('worldCup');
+
   return (
     <section className="py-24 relative overflow-hidden">
       {/* Background */}
@@ -29,17 +33,15 @@ export function WorldCupBanner() {
             transition={{ duration: 0.6 }}
           >
             <span className="inline-block text-xs tracking-[0.4em] text-champagne uppercase mb-4">
-              Special Event Coverage
+              {t('badge')}
             </span>
             <h2 className="text-4xl md:text-5xl font-light text-platinum mb-6">
-              FIFA World Cup 2026
+              {t('title')}
               <br />
               <span className="text-champagne">Mexico</span>
             </h2>
             <p className="text-lg text-silver leading-relaxed mb-8">
-              Move through the tournament with absolute confidence. From group stage
-              to final whistle, our dedicated World Cup fleet ensures secure,
-              luxurious transport across all host cities.
+              {t('description')}
             </p>
 
             {/* Event details */}
@@ -71,13 +73,13 @@ export function WorldCupBanner() {
             <div className="flex flex-col sm:flex-row gap-4">
               <Link href="/world-cup-2026">
                 <Button variant="primary" size="lg">
-                  Explore Packages
+                  {tWorldCup('packages.title')}
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </Button>
               </Link>
               <Link href="/contact">
                 <Button variant="outline" size="lg">
-                  Reserve Early
+                  {t('button')}
                 </Button>
               </Link>
             </div>

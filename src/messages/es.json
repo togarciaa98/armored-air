@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "title": "Armored & Air | Vehículos Blindados de Lujo | Copa Mundial FIFA 2026 México",
+    "description": "Alquiler premium de vehículos blindados para la Copa Mundial FIFA 2026 en México. Protección ejecutiva, flota de lujo y total discreción."
+  },
+  "navigation": {
+    "fleet": "Flota",
+    "pricing": "Precios",
+    "services": "Servicios",
+    "worldCup": "Copa Mundial 2026",
+    "cities": "Ciudades",
+    "requestQuote": "Solicitar Cotización"
+  },
+  "hero": {
+    "preHeadline": "Copa Mundial FIFA 2026 — México",
+    "headline": "Domina Cada Kilómetro",
+    "subheadline": "Vehículos blindados de lujo para los viajes más protegidos del mundo.",
+    "subheadline2": "Seguridad, discreción y excelencia—sin compromisos.",
+    "cta": {
+      "quote": "Solicitar Cotización Privada",
+      "fleet": "Explorar Flota"
+    },
+    "stats": {
+      "secureOps": "Operaciones Seguras",
+      "protection": "Niveles de Protección",
+      "hostCities": "Ciudades Sede",
+      "yearsExcellence": "Años de Excelencia"
+    }
+  },
+  "footer": {
+    "description": "Servicios premium de vehículos blindados para la Copa Mundial FIFA 2026 en México. Seguridad, lujo y absoluta discreción.",
+    "navigation": "Navegación",
+    "hostCities": "Ciudades Sede",
+    "secureContact": "Contacto Seguro",
+    "secureLine": "Línea Segura",
+    "encryptedEmail": "Email Encriptado",
+    "responseTime": "Tiempo de Respuesta",
+    "within": "Dentro de",
+    "certifiedProtection": "Protección Certificada",
+    "certifiedProtectionDesc": "Estándares de blindaje VR4 a VR7",
+    "completeDiscretion": "Discreción Total",
+    "completeDiscretionDesc": "Tu privacidad es primordial",
+    "operations24": "Operaciones 24/7",
+    "operations24Desc": "Siempre a tu servicio",
+    "privacyPolicy": "Política de Privacidad",
+    "termsOfService": "Términos de Servicio",
+    "allRightsReserved": "Todos los derechos reservados"
+  },
+  "fleet": {
+    "pageTitle": "Flota",
+    "badge": "Flota Blindada",
+    "title": "Colección Completa de Vehículos",
+    "description": "Cada vehículo de nuestra flota está certificado según estándares internacionales de protección, meticulosamente mantenido y disponible con conductores de seguridad profesionales. Selecciona tu nivel de protección.",
+    "filters": {
+      "category": "Categoría",
+      "all": "Todos",
+      "suv": "SUV",
+      "sedan": "Sedán",
+      "performance": "Deportivo",
+      "protectionLevel": "Nivel de Protección",
+      "city": "Ciudad",
+      "allCities": "Todas las Ciudades",
+      "mexicoCity": "Ciudad de México",
+      "guadalajara": "Guadalajara",
+      "monterrey": "Monterrey"
+    },
+    "results": {
+      "showing": "Mostrando",
+      "vehicle": "vehículo",
+      "vehicles": "vehículos",
+      "noResults": "Ningún vehículo coincide con tus filtros actuales.",
+      "clearFilters": "Limpiar todos los filtros"
+    },
+    "cta": {
+      "title": "¿Necesitas ayuda para seleccionar el vehículo adecuado?",
+      "description": "Nuestros consultores de seguridad pueden ayudarte a encontrar el vehículo ideal de nuestra flota según tus requisitos de protección.",
+      "button": "Solicitar Consulta"
+    },
+    "vehicleCard": {
+      "from": "desde",
+      "perDay": "/día",
+      "viewDetails": "Ver Detalles"
+    }
+  },
+  "pricing": {
+    "pageTitle": "Precios",
+    "badge": "Precios",
+    "title": "Excelencia Transparente",
+    "description": "Nuestras tarifas reflejan los estándares de protección y servicio que definen cada viaje. Cada nivel incluye conductores profesionales y soporte operacional 24/7.",
+    "protectionTiers": {
+      "title": "Niveles de Protección",
+      "description": "Selecciona el nivel de protección que coincida con tus requisitos de seguridad. Todos los niveles incluyen vehículos blindados certificados y conductores entrenados.",
+      "mostPopular": "Más Popular",
+      "perDay": "/día",
+      "requestQuote": "Solicitar Cotización"
+    },
+    "worldCupPackages": {
+      "title": "Paquetes Copa Mundial 2026",
+      "description": "Paquetes especializados diseñados para la Copa Mundial FIFA 2026 en México. Asegura tu flota con anticipación para acceso prioritario.",
+      "from": "desde",
+      "customQuote": "Cotización Personalizada",
+      "exploreButton": "Explorar Paquetes Copa Mundial"
+    },
+    "included": {
+      "title": "Qué Incluye",
+      "items": [
+        "Vehículo blindado certificado con documentación completa",
+        "Conductor profesional con entrenamiento en seguridad",
+        "Soporte del centro de operaciones 24/7",
+        "Cobertura de seguro integral",
+        "Rastreo GPS y monitoreo"
+      ]
+    },
+    "additional": {
+      "title": "Servicios Adicionales",
+      "description": "Las tarifas varían según el nivel de seguridad, ciudad, duración y servicios específicos requeridos. Cargos adicionales pueden aplicar para:",
+      "items": [
+        "Convoyes de múltiples vehículos",
+        "Horas operacionales extendidas",
+        "Traslados entre ciudades",
+        "Coordinación de escolta de seguridad",
+        "Servicios de recepción en aeropuerto",
+        "Logística de eventos especiales"
+      ]
+    },
+    "cta": {
+      "subtitle": "Todas las cotizaciones son confidenciales y adaptadas a tus requisitos específicos",
+      "title": "¿Listo para discutir tus necesidades de seguridad?",
+      "button": "Solicitar Cotización Privada"
+    }
+  },
+  "services": {
+    "pageTitle": "Servicios de Seguridad y Concierge",
+    "badge": "Servicios",
+    "title": "Seguridad y Concierge",
+    "description": "Más allá del vehículo, proporcionamos soporte integral que asegura que cada aspecto de tu viaje sea manejado con precisión y discreción. Nuestros servicios están diseñados para integrarse perfectamente con tus protocolos de seguridad existentes.",
+    "process": {
+      "title": "Cómo Trabajamos",
+      "description": "Nuestro proceso de compromiso está diseñado para la discreción y eficiencia, asegurando que tus requisitos sean cumplidos con la máxima precisión.",
+      "steps": [
+        {
+          "step": "01",
+          "title": "Consulta Inicial",
+          "description": "Discusión confidencial de tus requisitos de seguridad, itinerario de viaje y necesidades específicas."
+        },
+        {
+          "step": "02",
+          "title": "Evaluación de Seguridad",
+          "description": "Nuestro equipo evalúa rutas, lugares y consideraciones potenciales para recomendar la solución óptima."
+        },
+        {
+          "step": "03",
+          "title": "Asignación de Flota",
+          "description": "Selección de vehículos y personal apropiados según tu perfil de protección."
+        },
+        {
+          "step": "04",
+          "title": "Ejecución Operacional",
+          "description": "Entrega de servicio sin interrupciones con monitoreo en tiempo real y soporte 24/7 durante todo tu compromiso."
+        }
+      ]
+    },
+    "worldCup": {
+      "badge": "Servicios Especializados Copa Mundial 2026",
+      "title": "Operaciones Listas para el Torneo",
+      "description": "Para la Copa Mundial FIFA 2026, ofrecemos servicios mejorados específicamente diseñados para las demandas únicas del torneo, incluyendo coordinación multi-ciudad, logística de estadios y protocolos de seguridad elevados.",
+      "features": [
+        "Reconocimiento de rutas previo al evento para todos los lugares",
+        "Coordinación de llegada y salida del estadio",
+        "Posicionamiento de flota multi-ciudad",
+        "Gestión de acceso a áreas VIP",
+        "Integración con seguridad oficial del evento",
+        "Planificación de contingencia de emergencia"
+      ],
+      "worldCupReady": "Listo para Copa Mundial",
+      "exploreButton": "Explorar Servicios Copa Mundial"
+    },
+    "cta": {
+      "title": "Discute Tus Requisitos",
+      "description": "Cada compromiso es único. Contáctanos para discutir cómo podemos adaptar nuestros servicios a tus necesidades específicas de seguridad y logística.",
+      "button": "Solicitar Consulta"
+    }
+  },
+  "cities": {
+    "pageTitle": "Ciudades Cubiertas",
+    "badge": "Cobertura",
+    "title": "Ciudades Sede",
+    "description": "Cobertura integral de vehículos blindados en todas las ciudades sede de la Copa Mundial FIFA 2026 en México. Experiencia local, flotas dedicadas y coordinación multi-ciudad sin interrupciones.",
+    "suvsAvailable": "SUVs Disponibles",
+    "sedansAvailable": "Sedanes Disponibles",
+    "performance": "Deportivos",
+    "viewFleet": "Ver Flota de {city}",
+    "coverageAreas": "Áreas de Cobertura",
+    "more": "más",
+    "multiCity": {
+      "badge": "Coordinación Multi-Ciudad",
+      "title": "Movimiento Fluido Entre Ciudades",
+      "description": "Para itinerarios que abarcan múltiples ciudades sede, coordinamos el posicionamiento de vehículos, asignaciones de conductores y logística para asegurar protección continua durante todo tu viaje.",
+      "features": [
+        {
+          "title": "Posicionamiento de Vehículos",
+          "description": "Tu vehículo seleccionado te espera en cada ciudad, o te acompaña mediante transporte seguro entre ubicaciones."
+        },
+        {
+          "title": "Continuidad del Conductor",
+          "description": "Opción de asignación de conductor consistente entre ciudades o especialistas locales en cada ubicación."
+        },
+        {
+          "title": "Operaciones Unificadas",
+          "description": "Punto de contacto único a través de nuestro centro de operaciones para todas las ciudades y requisitos."
+        }
+      ]
+    },
+    "cta": {
+      "title": "¿Planificando un Itinerario Multi-Ciudad?",
+      "description": "Nuestro equipo se especializa en coordinar horarios complejos en todas las ciudades sede mexicanas de la Copa Mundial.",
+      "button": "Solicitar Cotización Multi-Ciudad"
+    }
+  },
+  "worldCup": {
+    "pageTitle": "Experiencia Copa Mundial FIFA 2026",
+    "badge": "Cobertura de Evento Especial",
+    "title": "Copa Mundial FIFA 2026",
+    "subtitle": "México",
+    "description": "Muévete a través del torneo con absoluta confianza. Desde la fase de grupos hasta el pitazo final, nuestra flota dedicada para la Copa Mundial asegura transporte seguro y lujoso en todas las ciudades sede mexicanas.",
+    "reserveNow": "Reserva Tu Flota Ahora",
+    "hostCities": {
+      "title": "Ciudades Sede de México",
+      "description": "Cobertura completa en todos los lugares mexicanos con flotas dedicadas y experiencia local en cada ciudad.",
+      "suvs": "SUVs",
+      "sedans": "Sedanes",
+      "total": "Total",
+      "viewCityFleet": "Ver Flota de la Ciudad"
+    },
+    "packages": {
+      "title": "Paquetes del Torneo",
+      "description": "Soluciones a medida para cada nivel de participación en la Copa Mundial, desde partidos individuales hasta cobertura completa del torneo.",
+      "from": "desde",
+      "customQuote": "Cotización Personalizada"
+    },
+    "features": {
+      "title": "Servicios del Torneo",
+      "description": "Capacidades especializadas diseñadas para las demandas únicas de un evento deportivo global.",
+      "items": [
+        {
+          "title": "Coordinación Multi-Ciudad",
+          "description": "Posicionamiento de vehículos sin interrupciones en Ciudad de México, Guadalajara y Monterrey según evoluciona tu itinerario."
+        },
+        {
+          "title": "Logística del Día del Partido",
+          "description": "Tiempos de llegada y salida coordinados optimizados para protocolos de seguridad del estadio y manejo de multitudes."
+        },
+        {
+          "title": "Seguridad Mejorada",
+          "description": "Protocolos de protección elevados apropiados para eventos internacionales de alto perfil."
+        },
+        {
+          "title": "Transporte Grupal",
+          "description": "Capacidad de convoy de múltiples vehículos para delegaciones corporativas, familias y detalles de seguridad."
+        },
+        {
+          "title": "Soporte de Acceso VIP",
+          "description": "Coordinación con instalaciones VIP del lugar, suites de hospitalidad y áreas de eventos exclusivos."
+        },
+        {
+          "title": "Programación Flexible",
+          "description": "Servicio adaptable que se ajusta a resultados de partidos, cambios de horario y planes en evolución."
+        }
+      ]
+    },
+    "earlyBooking": {
+      "badge": "Beneficios de Reserva Anticipada",
+      "title": "Asegura Tu Flota Ahora",
+      "description": "Con disponibilidad limitada de vehículos blindados en México durante la Copa Mundial, la reserva anticipada asegura acceso a nuestra flota premium y selección preferida de vehículos.",
+      "benefits": [
+        "Acceso prioritario a vehículos insignia",
+        "Gerente de cuenta dedicado asignado",
+        "Tarifas bloqueadas sin aumento por torneo",
+        "Primera selección de conductores certificados",
+        "Disponibilidad garantizada para tus fechas"
+      ],
+      "button": "Reserva Anticipada",
+      "bookNow": "Reserva Ahora"
+    },
+    "cta": {
+      "title": "¿Listo para la Copa Mundial?",
+      "description": "Contáctanos para discutir tus requisitos de la Copa Mundial 2026. Nuestro equipo se especializa en logística de eventos de alto perfil.",
+      "quoteButton": "Solicitar Cotización Copa Mundial",
+      "fleetButton": "Ver Flota"
+    }
+  },
+  "contact": {
+    "pageTitle": "Solicitud Privada",
+    "badge": "Contacto",
+    "title": "Solicitud Privada",
+    "description": "Cada consulta es manejada con absoluta discreción. Tu información está protegida por estrictos protocolos de confidencialidad y nunca se comparte con terceros.",
+    "directContact": {
+      "title": "Contacto Directo",
+      "secureLine": "Línea Segura",
+      "encryptedEmail": "Email Encriptado",
+      "responseTime": "Tiempo de Respuesta",
+      "within": "Dentro de"
+    },
+    "commitment": {
+      "title": "Nuestro Compromiso",
+      "certifiedProtection": "Protección Certificada",
+      "certifiedProtectionDesc": "Estándares de blindaje VR4-VR7",
+      "completeDiscretion": "Discreción Total",
+      "completeDiscretionDesc": "Tu privacidad es primordial",
+      "operations24": "Operaciones 24/7",
+      "operations24Desc": "Siempre a tu servicio"
+    },
+    "urgent": {
+      "title": "Requisitos Urgentes",
+      "description": "Para asistencia inmediata o solicitudes sensibles al tiempo, contacta directamente nuestro centro de operaciones 24/7."
+    },
+    "form": {
+      "title": "Detalles de la Solicitud",
+      "fullName": "Nombre Completo",
+      "email": "Correo Electrónico",
+      "phone": "Número de Teléfono",
+      "organization": "Organización/Empresa",
+      "optional": "Opcional",
+      "preferredCity": "Ciudad Preferida",
+      "selectCity": "Seleccionar ciudad",
+      "protectionLevel": "Nivel de Protección",
+      "selectProtection": "Seleccionar nivel de protección",
+      "lowProfile": "Bajo Perfil (VR4-VR5)",
+      "executive": "Ejecutivo (VR5-VR6)",
+      "highRisk": "Alto Riesgo (VR6-VR7)",
+      "notSure": "No Estoy Seguro - Necesito Consulta",
+      "vehiclesNeeded": "Número de Vehículos",
+      "selectQuantity": "Seleccionar cantidad",
+      "vehicle": "vehículo",
+      "vehicles": "vehículos",
+      "orMore": "o más",
+      "startDate": "Fecha de Inicio",
+      "endDate": "Fecha de Fin",
+      "additionalServices": "Servicios Adicionales",
+      "airportTransfers": "Traslados al Aeropuerto",
+      "multiCityService": "Servicio Multi-Ciudad",
+      "securityPersonnel": "Personal de Seguridad",
+      "conciergeServices": "Servicios de Concierge",
+      "specialRequirements": "Requisitos Especiales o Notas",
+      "specialRequirementsPlaceholder": "Cualquier requisito específico, consideraciones de seguridad o preguntas...",
+      "submit": "Enviar Solicitud Privada",
+      "submitting": "Enviando..."
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "questions": [
+        {
+          "q": "¿Qué tan rápido pueden organizar un vehículo?",
+          "a": "Las reservas estándar requieren 48-72 horas de anticipación. Para requisitos urgentes, contacta directamente nuestro centro de operaciones para disponibilidad el mismo día."
+        },
+        {
+          "q": "¿Sus vehículos están realmente blindados?",
+          "a": "Todos los vehículos están certificados según estándares balísticos internacionales (VR4-VR7) por laboratorios de prueba reconocidos. Documentación disponible bajo solicitud."
+        },
+        {
+          "q": "¿Operan fuera de las ciudades listadas?",
+          "a": "Sí, podemos organizar servicio en todo México con aviso previo. Contáctanos para soluciones logísticas personalizadas."
+        },
+        {
+          "q": "¿Puedo solicitar un conductor específico?",
+          "a": "Para compromisos extendidos, asignamos conductores a clientes basados en idioma, experiencia y compatibilidad. Solicitudes específicas pueden ser acomodadas."
+        }
+      ]
+    }
+  },
+  "trustIndicators": {
+    "title": "Confiado por",
+    "items": [
+      {
+        "title": "Operaciones Seguras 24/7",
+        "description": "Monitoreo y soporte las 24 horas"
+      },
+      {
+        "title": "Especialistas Certificados",
+        "description": "Profesionales de protección verificados"
+      },
+      {
+        "title": "Discreción Absoluta",
+        "description": "Tu privacidad es nuestra máxima prioridad"
+      },
+      {
+        "title": "15+ Años de Excelencia",
+        "description": "Sirviendo a la élite global desde 2009"
+      }
+    ]
+  },
+  "fleetShowcase": {
+    "badge": "Vehículos Destacados",
+    "title": "Selecciona de Nuestra Flota",
+    "description": "Cada vehículo en nuestra colección es meticulosamente seleccionado y certificado según los más altos estándares de protección.",
+    "viewAll": "Ver Flota Completa",
+    "from": "desde",
+    "perDay": "/día"
+  },
+  "worldCupBanner": {
+    "badge": "Aceptando Reservaciones",
+    "title": "Copa Mundial FIFA 2026",
+    "description": "Asegura tu flota blindada para el torneo de tu vida. Disponibilidad limitada en todas las ciudades sede mexicanas.",
+    "button": "Reservar para Copa Mundial"
+  },
+  "citySelector": {
+    "badge": "Áreas de Cobertura",
+    "title": "Sirviendo Todas las Ciudades Sede",
+    "description": "Servicios integrales de vehículos blindados en todas las ciudades sede de la Copa Mundial FIFA 2026 en México.",
+    "viewDetails": "Ver Detalles",
+    "viewAll": "Ver Todas las Ciudades"
+  },
+  "common": {
+    "backTo": "Volver a",
+    "learnMore": "Saber Más",
+    "viewDetails": "Ver Detalles",
+    "from": "desde",
+    "perDay": "/día"
+  }
+}

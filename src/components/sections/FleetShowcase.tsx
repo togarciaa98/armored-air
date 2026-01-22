@@ -1,6 +1,7 @@
 "use client";
 
-import Link from "next/link";
+import { useTranslations } from 'next-intl';
+import { Link } from '@/i18n/navigation';
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 import { VehicleCard } from "@/components/fleet/VehicleCard";
@@ -8,6 +9,7 @@ import { Button } from "@/components/ui/Button";
 import { getFeaturedVehicles } from "@/data/vehicles";
 
 export function FleetShowcase() {
+  const t = useTranslations('fleetShowcase');
   const featuredVehicles = getFeaturedVehicles();
 
   return (
@@ -22,14 +24,13 @@ export function FleetShowcase() {
           className="text-center mb-16"
         >
           <span className="inline-block text-xs tracking-[0.4em] text-champagne uppercase mb-4">
-            Our Fleet
+            {t('badge')}
           </span>
           <h2 className="text-3xl md:text-4xl font-light text-platinum mb-4">
-            Armored Excellence
+            {t('title')}
           </h2>
           <p className="text-silver max-w-2xl mx-auto">
-            A curated collection of the world&apos;s finest armored vehicles, each certified
-            to the highest protection standards and maintained to perfection.
+            {t('description')}
           </p>
         </motion.div>
 
@@ -50,7 +51,7 @@ export function FleetShowcase() {
         >
           <Link href="/fleet">
             <Button variant="outline" size="lg">
-              View Complete Fleet
+              {t('viewAll')}
               <ArrowRight className="w-4 h-4 ml-2" />
             </Button>
           </Link>
